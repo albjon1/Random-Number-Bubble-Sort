@@ -22,8 +22,8 @@ def b_sort(sort):
 
 randomList = []
 
-for i in range(0, 1000):
-    nums = random.randint(0, 100000)
+for i in range(0, 1001):
+    nums = random.randint(0, 100001)
     randomList.append(nums)
 print('Generated list = ', randomList)
 b_sort(randomList)
