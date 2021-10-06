@@ -35,5 +35,5 @@ end_time = time.time()
 print('''
 ''')
 
-# Runtime is printed
+# Runtime is displayed
 print(f"Runtime = {end_time - start_time}")
