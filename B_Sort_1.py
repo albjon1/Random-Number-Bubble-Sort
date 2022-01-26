@@ -1,7 +1,3 @@
-"""
-Bubble sort
-Author - Albjon Husha
-"""
 import time
 import random
 
