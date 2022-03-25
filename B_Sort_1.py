@@ -5,14 +5,14 @@ import random
 start_time = time.time()
 
 
-# Bubble Sort Function
-def b_sort(sort):
+# Bubble array Function
+def b_array(array):
     swap = True
     while swap:
         swap = False
-        for x in range(len(sort) - 1):
-            if sort[x] > sort[x + 1]:
-                sort[x], sort[x + 1] = sort[x + 1], sort[x]
+        for x in range(len(array) - 1):
+            if array[x] > array[x + 1]:
+                array[x], array[x + 1] = array[x + 1], array[x]
                 swap = True
 
 
@@ -24,8 +24,8 @@ for i in range(1, 1001):
     randomList.append(nums)
 
 print('Generated list = ', randomList)
-b_sort(randomList)  # Running the algorithm on the list
-print('Sorted = ', randomList)
+b_array(randomList)  # Running the algorithm on the list
+print('sorted = ', randomList)
 
 # Ending Runtime
 end_time = time.time()
