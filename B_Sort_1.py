@@ -5,7 +5,7 @@ import random
 start_time = time.time()
 
 
-# Bubble array Function
+# Bubble Sort Function
 def b_array(array):
     swap = True
     while swap:
