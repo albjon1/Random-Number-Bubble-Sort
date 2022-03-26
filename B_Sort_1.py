@@ -21,7 +21,7 @@ random_list = []
 
 for i in range(1, 1001):
     nums = random.randint(1, 100001)
-    randomList.append(nums)
+    random_list.append(nums)
 
 print('Generated list = ', random_list)
 b_array(random_list)  # Running the algorithm on the list
