@@ -17,15 +17,15 @@ def b_array(array):
 
 
 # Creating randomly generated list of 1000 integers
-randomList = []
+random_list = []
 
 for i in range(1, 1001):
     nums = random.randint(1, 100001)
     randomList.append(nums)
 
-print('Generated list = ', randomList)
-b_array(randomList)  # Running the algorithm on the list
-print('sorted = ', randomList)
+print('Generated list = ', random_list)
+b_array(random_list)  # Running the algorithm on the list
+print('sorted = ', random_list)
 
 # Ending Runtime
 end_time = time.time()
