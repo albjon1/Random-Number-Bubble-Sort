@@ -20,7 +20,7 @@ def b_array(array):
 random_list = []
 
 for i in range(1, 1001):
-    nums = random.randint(1, 100001)
+    nums = random.randint(1, 100000)
     random_list.append(nums)
 
 print('Generated list = ', random_list)
