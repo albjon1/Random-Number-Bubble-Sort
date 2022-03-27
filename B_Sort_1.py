@@ -25,7 +25,7 @@ for i in range(1, 1001):
 
 print('Generated list = ', random_list)
 b_array(random_list)  # Running the algorithm on the list
-print('sorted = ', random_list)
+print('Sorted = ', random_list)
 
 # Ending Runtime
 end_time = time.time()
