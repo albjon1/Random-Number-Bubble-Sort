@@ -19,7 +19,7 @@ def b_array(array):
 # Creating randomly generated list of 1000 integers
 random_list = []
 
-for i in range(1, 1001):
+for i in range(1000):
     nums = random.randint(1, 100000)
     random_list.append(nums)
 
