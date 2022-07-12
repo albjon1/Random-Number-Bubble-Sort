@@ -10,9 +10,9 @@ def id_sort(array):
     swap = True
     while swap:
         swap = False
-        for x in range(len(array) - 1):
-            if array[x] > array[x + 1]:
-                array[x], array[x + 1] = array[x + 1], array[x]
+        for i in range(len(array) - 1):
+            if array[i] > array[i + 1]:
+                array[i], array[i + 1] = array[i + 1], array[i]
                 swap = True
 
 
