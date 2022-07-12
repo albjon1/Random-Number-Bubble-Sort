@@ -6,7 +6,7 @@ start_time = time.time()
 
 
 # Bubble Sort Function / Time Complexity - O(n^2)
-def b_array(array):
+def id_sort(array):
     swap = True
     while swap:
         swap = False
@@ -24,7 +24,7 @@ for i in range(1000):
     random_list.append(nums)
 
 print('Generated list = ', random_list)
-b_array(random_list)  # Running algorithm on the list
+id_sort(random_list)  # Running algorithm on the list
 print('Sorted = ', random_list)
 
 # Ending Runtime
