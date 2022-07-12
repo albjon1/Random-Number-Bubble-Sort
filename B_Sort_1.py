@@ -24,7 +24,7 @@ for i in range(1000):
     random_list.append(nums)
 
 print('Generated list = ', random_list)
-b_array(random_list)  # Running the algorithm on the list
+b_array(random_list)  # Running algorithm on the list
 print('Sorted = ', random_list)
 
 # Ending Runtime
