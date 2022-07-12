@@ -5,7 +5,7 @@ import random
 start_time = time.time()
 
 
-# Bubble Sort Function
+# Bubble Sort Function / Time Complexity - O(n^2)
 def b_array(array):
     swap = True
     while swap:
